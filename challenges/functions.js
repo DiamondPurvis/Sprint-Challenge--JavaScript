@@ -27,16 +27,16 @@ const greeting = (firstName, lastName) => {
 }
 
 /* Step 3: Check your work by un-commenting the following calls to consume(): */
-// consume(2,2,add); // 4
-// consume(10,16,multiply); // 160
-// consume("Mary","Poppins", greeting); // Hello Mary Poppins, nice to meet you!
+ consume(2,2,add); // 4
+consume(10,16,multiply); // 160
+consume("Mary","Poppins", greeting); // Hello Mary Poppins, nice to meet you!
 
 
 // ==== Closures ==== 
 
 // Explain in your own words why `nestedfunction()` can access the variable `internal`.
 
-// Explanation: 
+// Explanation: it has to reach the variables around the function
 
 
 const external = "I'm outside the function";
